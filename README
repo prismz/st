@@ -2,6 +2,17 @@ st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
+This build has my own set of patches, and uses scripts from
+Luke Smith's build: https://github.com/LukeSmithxyz/st.
+
+Ctrl+Shift+Enter to open another terminal in the same directory.
+
+The following require dmenu:
+
+Alt+l = open urls
+Alt+y = copy urls
+Alt+o = copy command output
+
 
 Requirements
 ------------
