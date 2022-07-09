@@ -146,6 +146,11 @@ static unsigned int defaultrcs = 257;
  */
 static unsigned int cursorshape = 2;
 
+/* Pixel or Cell geom */
+static Geometry geometry = CellGeometry;
+static unsigned int width = 800;
+static unsigned int height = 800;
+
 /*
  * Default columns and rows numbers
  */

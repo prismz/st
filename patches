@@ -4,4 +4,6 @@ https://st.suckless.org/patches/newterm/st-newterm-0.8.2.diff
 https://st.suckless.org/patches/externalpipe/st-externalpipe-0.8.4.diff
 
 // this patch had some simple changes to it to make it work
-https://st.suckless.org/patches/title_parsing_fix/st-title_parsing_fix-0.8.4.diff 
+https://st.suckless.org/patches/title_parsing_fix/st-title_parsing_fix-0.8.4.diff
+
+https://st.suckless.org/patches/anygeometry/st-anygeometry-0.8.1.diff
