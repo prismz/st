@@ -103,6 +103,7 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
+	/*
     "#101010",
     "#7c7c7c",
     "#8e8e8e",
@@ -112,7 +113,7 @@ static const char *colorname[] = {
     "#868686",
     "#b9b9b9",
 
-    /* 8 bright colors */
+    // 8 bright colors
     "#525252",
     "#7c7c7c",
     "#8e8e8e",
@@ -124,9 +125,36 @@ static const char *colorname[] = {
 
     [255] = 0,
 
-    /* more colors can be added after 255 to use with DefaultXX */
+    // more colors can be added after 255 to use with DefaultXX
     "#000000",
     "#b9b9b9",
+    */
+
+	// standard
+	// "#002b36",
+	"#002b36", // #002029",
+	"#dc322f",
+	"#859900",
+	"#b58900",
+	"#268bd2",
+	"#6c71c4",
+	"#2aa198",
+	"#93a1a1",
+
+	// bright
+	"#657b83",
+	"#dc322f",
+	"#859900",
+	"#b58900",
+	"#268bd2",
+	"#6c71c4",
+	"#2aa198",
+	"#fdf6e3",
+
+	[255] = 0,
+
+	"#93a1a1",
+	"#b9b9b9"
 };
 
 
@@ -134,8 +162,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
+// unsigned int defaultfg = 7;
 unsigned int defaultfg = 7;
-unsigned int defaultbg = 16;
+// unsigned int defaultbg = 16;
+unsigned int defaultbg = 0;
 unsigned int defaultcs = 257;
 static unsigned int defaultrcs = 257;
 
@@ -149,9 +179,9 @@ static unsigned int defaultrcs = 257;
 static unsigned int cursorshape = 2;
 
 /* Pixel or Cell geom */
-static Geometry geometry = CellGeometry;
-static unsigned int width = 800;
-static unsigned int height = 800;
+static Geometry geometry = PixelGeometry; // CellGeometry;
+static unsigned int width = 564;
+static unsigned int height = 364;
 
 /*
  * Default columns and rows numbers
