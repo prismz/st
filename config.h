@@ -6,6 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrains Mono:pixelsize=15:antialias=true";
+// static char *font = "Fantasque Sans Mono:pixelsize=20:antialias=true";
 // static char *font = "Unifont:pixelsize=17:antialias=true";
 // static char *font = "Greybeard 18px:pixelsize=18:antialias=true";
 static int borderpx = 1;
